@@ -1,6 +1,6 @@
 # Maintainer: Your Name <your@email.com>
 pkgname=arch-manwarn
-pkgver=0.3.0
+pkgver=0.4.0
 pkgrel=1
 pkgdesc="Minimalist pacman hook to warn about Arch News manual interventions"
 arch=('x86_64')
@@ -9,7 +9,7 @@ license=('UNLICENSE')
 depends=('pacman' 'curl')
 makedepends=('rust' 'cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('97854ba98ae2c9ce15e5b66d770f5341a9b09dab0b595afe59eaec8eba9e1e07')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"
