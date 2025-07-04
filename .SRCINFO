@@ -1,6 +1,6 @@
 pkgbase = arch-manwarn
 	pkgdesc = Minimalist pacman hook to warn about Arch News manual interventions
-	pkgver = 0.3.0
+	pkgver = 0.4.0
 	pkgrel = 1
 	url = https://github.com/NLion74/arch-manwarn
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = arch-manwarn
 	makedepends = cargo
 	depends = pacman
 	depends = curl
-	source = arch-manwarn-0.3.0.tar.gz::https://github.com/NLion74/arch-manwarn/archive/refs/tags/v0.3.0.tar.gz
-	sha256sums = SKIP
+	source = arch-manwarn-0.4.0.tar.gz::https://github.com/NLion74/arch-manwarn/archive/refs/tags/v0.4.0.tar.gz
+	sha256sums = 97854ba98ae2c9ce15e5b66d770f5341a9b09dab0b595afe59eaec8eba9e1e07
 
 pkgname = arch-manwarn
