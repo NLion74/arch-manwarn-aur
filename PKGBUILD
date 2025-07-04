@@ -1,15 +1,15 @@
 # Maintainer: Your Name <your@email.com>
 pkgname=arch-manwarn
-pkgver=0.4.0
+pkgver=0.5.0
 pkgrel=1
-pkgdesc="Minimalist pacman hook to warn about Arch News manual interventions"
+pkgdesc="arch-manwarn is a minimalist utility written in Rust that checks the Arch news RSS feed for manual intervention warnings and blocks your pacman upgrade or install if action is needed."
 arch=('x86_64')
 url="https://github.com/NLion74/arch-manwarn"
 license=('UNLICENSE')
 depends=('pacman' 'curl')
 makedepends=('rust' 'cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('97854ba98ae2c9ce15e5b66d770f5341a9b09dab0b595afe59eaec8eba9e1e07')
+sha256sums=('4118c2b9108d6b6601f7ecf1ab73e2b01497eacd995e008728e5ae52fde1dcb7')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"
