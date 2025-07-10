@@ -1,6 +1,6 @@
 pkgbase = arch-manwarn
-	pkgdesc = arch-manwarn is a minimalist utility written in Rust that checks the Arch news RSS feed for manual intervention warnings and blocks your pacman upgrade or install if action is required.
-	pkgver = 0.9.0
+	pkgdesc = Rust-based pacman hook that blocks updates if unread Arch News posts require manual intervention
+	pkgver = 0.9.1
 	pkgrel = 1
 	url = https://github.com/NLion74/arch-manwarn
 	arch = x86_64
@@ -9,7 +9,8 @@ pkgbase = arch-manwarn
 	makedepends = cargo
 	depends = pacman
 	depends = curl
-	source = arch-manwarn-0.9.0.tar.gz::https://github.com/NLion74/arch-manwarn/archive/refs/tags/v0.9.0.tar.gz
-	sha256sums = 921508c83e067902e56aa949cd3a6ecdcc2a8a0c78aa78d81e396391f34a52cd
+	conflicts = informant
+	source = arch-manwarn-0.9.1.tar.gz::https://github.com/NLion74/arch-manwarn/archive/refs/tags/v0.9.1.tar.gz
+	sha256sums = 571101292e1d1f824b1966237802534fcd8ec88dd0d2ca788333865ed7508d7d
 
 pkgname = arch-manwarn
