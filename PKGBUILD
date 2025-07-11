@@ -9,6 +9,7 @@ license=('UNLICENSE')
 depends=('pacman' 'curl')
 conflicts=('informant')
 makedepends=('rust' 'cargo')
+options=(!lto)
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('8868a20e83e59fea40c5e97d8e6a885c9aedcf6194e542f8bcb8640e41a8c979')
 
