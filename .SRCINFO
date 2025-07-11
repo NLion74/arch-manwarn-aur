@@ -11,6 +11,7 @@ pkgbase = arch-manwarn
 	depends = curl
 	conflicts = informant
 	options = !lto
+	options = !debug
 	source = arch-manwarn-0.9.2.tar.gz::https://github.com/NLion74/arch-manwarn/archive/refs/tags/v0.9.2.tar.gz
 	sha256sums = 8868a20e83e59fea40c5e97d8e6a885c9aedcf6194e542f8bcb8640e41a8c979
 
