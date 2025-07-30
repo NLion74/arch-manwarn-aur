@@ -10,7 +10,7 @@ depends=('pacman' 'curl')
 conflicts=('informant')
 makedepends=('rust' 'cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('f71cbc9f4853478a13eed7da630fa31bd409fb0725a6924a173fc795265432a2')
+sha256sums=('06927080c67024d0a2a66cc427afa895d400437c0b7668e9af133bf01fcc645d')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"
