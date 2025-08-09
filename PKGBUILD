@@ -1,6 +1,6 @@
 # Maintainer: nlion <nlion@nlion.nl>
 pkgname=arch-manwarn
-pkgver=1.1.0
+pkgver=1.1.1
 pkgrel=1
 pkgdesc="Rust-based pacman hook that blocks updates if unread Arch News posts require manual intervention"
 arch=('x86_64' 'aarch64' 'armv7h' 'armv6h' 'i686')
@@ -10,7 +10,7 @@ depends=('pacman' 'curl')
 conflicts=('informant')
 makedepends=('rust' 'cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('06927080c67024d0a2a66cc427afa895d400437c0b7668e9af133bf01fcc645d')
+sha256sums=('38c1799c71e98e2a5aebebe3c744aaf5f2c4670edba14f26d147da0e393c54de')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"
