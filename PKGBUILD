@@ -20,7 +20,7 @@ build() {
 package() {
   cd "$srcdir/$pkgname-$pkgver"
   install -Dm755 "target/release/arch-manwarn" "$pkgdir/usr/bin/arch-manwarn"
-  install -Dm644 "hooks/arch-manwarn.hook" "$pkgdir/usr/share/libalpm/hooks/arch-manwarn.hook"
+  install -Dm644 "hooks/00-arch-manwarn.hook" "$pkgdir/usr/share/libalpm/hooks/00-arch-manwarn.hook"
   install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
   install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
   install -Dm644 "man/arch-manwarn.1" "$pkgdir/usr/share/man/man1/arch-manwarn.1"
